@@ -4,6 +4,7 @@ import AbstractFactoryPatterns.products.abstract_products.Checkbox;
 import AbstractFactoryPatterns.products.abstract_products.Dialog;
 import FactoryPatterns.creators.Logistics;
 
+//Connects GUI (Abstract Factory) with business logic (Logistics)
 public class AppController {
     private final GUIFactory guiFactory;
     private final Logistics logistics;

@@ -2,6 +2,7 @@ package AbstractFactoryPatterns.products.concrete_products;
 
 import AbstractFactoryPatterns.products.abstract_products.Button;
 
+//Mobile-specific implementation of Button
 public class MobileButton implements Button {
     private Runnable action;
 

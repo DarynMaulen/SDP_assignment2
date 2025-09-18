@@ -5,6 +5,7 @@ import FactoryPatterns.creators.Logistics;
 import FactoryPatterns.creators.concrete_creators.AirLogistics;
 import FactoryPatterns.creators.concrete_creators.RoadLogistics;
 
+//Configures factories and starts the app
 public class Main {
     public static void main(String[] args) {
         GUIFactory factory = new DesktopGUIFactory();

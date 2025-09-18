@@ -8,6 +8,7 @@ import AbstractFactoryPatterns.products.concrete_products.DesktopButton;
 import AbstractFactoryPatterns.products.concrete_products.DesktopCheckbox;
 import AbstractFactoryPatterns.products.concrete_products.DesktopDialog;
 
+//Concrete factory producing Desktop GUI components
 public class DesktopGUIFactory implements GUIFactory {
     public Button createButton(){
         return new DesktopButton();

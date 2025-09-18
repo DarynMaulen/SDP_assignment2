@@ -8,6 +8,7 @@ import AbstractFactoryPatterns.products.concrete_products.MobileButton;
 import AbstractFactoryPatterns.products.concrete_products.MobileCheckbox;
 import AbstractFactoryPatterns.products.concrete_products.MobileDialog;
 
+//Concrete factory producing Mobile GUI components
 public class MobileGUIFactory implements GUIFactory {
     public Button createButton(){
         return new MobileButton();

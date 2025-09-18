@@ -2,6 +2,7 @@ package AbstractFactoryPatterns.products.concrete_products;
 
 import AbstractFactoryPatterns.products.abstract_products.Button;
 
+//Desktop-specific implementation of Button
 public class DesktopButton implements Button {
     private Runnable action;
 
